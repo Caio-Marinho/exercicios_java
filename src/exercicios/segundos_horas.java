@@ -13,5 +13,6 @@ public class segundos_horas {
 		minutos = resto/60;
 		segundos = resto%60;
 		System.out.printf("%d:%d:%d",horas,minutos,segundos);
+		entrada.close();
 	}
 }
