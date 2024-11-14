@@ -7,7 +7,8 @@ public class media_array {
 		Scanner entrada = new Scanner(System.in);
 		int [] notas = new int[3];
 		int soma = 0;
-		for (int i = 0;i<3;i++) {
+		int tamanho = notas.length;
+		for (int i = 0;i<tamanho;i++) {
 			System.out.printf("Informe a %dª nota: ",i+1);
 			notas[i] = entrada.nextInt();
 			soma+=notas[i];
