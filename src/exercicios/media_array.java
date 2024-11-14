@@ -2,6 +2,7 @@ package exercicios;
 import java.util.Scanner;
 
 public class media_array {
+	//Tirar média por meio de uso de Array
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		int [] notas = new int[3];
@@ -13,5 +14,6 @@ public class media_array {
 		}
 		float media = (float) soma/notas.length;
 		System.out.printf("A média do Aluno foi: %.2f",media);
+		entrada.close();
 	}
 }
