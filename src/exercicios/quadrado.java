@@ -20,5 +20,6 @@ public class quadrado {
 		}
 		System.out.println();
 		System.out.println("Esse quadrilatero tem "+(largura*altura)+" m²");
+		entrada.close();
 	}
 }
